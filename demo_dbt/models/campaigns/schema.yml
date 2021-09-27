@@ -1,10 +1,11 @@
 version: 2
 
 sources:
-  - name: snowflake_sample_data
+  - name: campaigns
     description: "sample database provided by Snowflake"
     database: snowflake_sample_data
     schema: tpcds_sf10tcl
     tables:
-      - name: warehouse
-        
+      - name: promotion
+      - name: item
+      - name: date_dim

@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: item
+    columns:
+      - name: i_item_sk
+        tests:
+          - unique
+          - not_null
